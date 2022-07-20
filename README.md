@@ -1,5 +1,5 @@
 # SampleSymbolGraphProject
-This is a sample project for demonstrating, testing, and discussing the changes introduced by apple/swift-docc#210.
+This is a sample project for demonstrating, testing, and discussing the changes introduced by apple/swift#59047 and apple/swift-docc#210.
 
 ## Resources
 
