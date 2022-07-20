@@ -6,6 +6,7 @@ This is a sample project for demonstrating, testing, and discussing the changes 
 * You can find the Swift files in the respective module folders.
 * The Symbol Graph Files are emitted to [SampleSymbolGraphProject/.build/symbol-graphs](SampleSymbolGraphProject/.build/symbol-graphs).
 * The documentation archive (prepared for static hosting) is located at [SampleSymbolGraphProject.doccarchive](SampleSymbolGraphProject.doccarchive)
+* The live documentation archive is hosted [here](https://themomax.github.io/SampleSymbolGraphProject/documentation/samplesymbolgraphproject/) via GitHub pages.
 
 ## Build Instructions
 
@@ -38,5 +39,6 @@ DOCC_HTML_DIR=/PATH/TO/APPLE/SWIFT-DOCC-RENDER-ARTIFACT/FOLDER/dist .build/arm64
   --fallback-bundle-identifier org.test.SampleSymbolGraphProject \
   --fallback-bundle-version 1.0.0 \
   --additional-symbol-graph-dir /PATH/TO/THIS/REPOSITORY/SampleSymbolGraphProject/.build/symbol-graphs \
-  --output-path  /PATH/TO/THIS/REPOSITORY/SampleSymbolGraphProject.doccarchive
+  --output-path  /PATH/TO/THIS/REPOSITORY/docs \
+  --hosting-base-path SampleSymbolGraphProject
 ```
