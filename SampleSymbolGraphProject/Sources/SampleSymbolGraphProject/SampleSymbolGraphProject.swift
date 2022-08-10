@@ -27,3 +27,8 @@ public let b = ""
 public extension BStruct {
     var sample: String { "SampleSymbolGraphProject" }
 }
+
+public extension AProtocolWithRequirement {
+    /// The default implementation.
+    func aFoo() {}
+}

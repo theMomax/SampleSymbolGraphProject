@@ -70,3 +70,12 @@ This page already makes heavy use of referencing symbols and manual curation. Th
 - ``SampleSymbolGraphProject/SwiftUI``
 - ``B/A/AStruct-3827z/BStruct``
 - ``/B/A/AStruct6``
+
+### Default Implementations on External Protocols
+
+One feature not implemented yet are default implementations on external protocols. This will require small modifications to apple/swift and apple/swift-docc beyond [apple/swift#59047](https://github.com/apple/swift/pull/59047) and [apple/swift-docc#335](https://github.com/apple/swift-docc/pull/335). This documentation archive already contains a default implementation for ``/A/AProtocolWithRequirement/aFoo()``, which is provided by ``SampleSymbolGraphProject/A/AProtocolWithRequirement``. In this archive, the default implementation is directly associated with ``/A/AProtocolWithRequirement``, which shouldn't be the case. In regular archives that only contain one module, the default implementation would just not be visible at all at the moment.
+
+- ``/A/AProtocolWithRequirement``
+- ``SampleSymbolGraphProject/A/AProtocolWithRequirement``
+- ``/A/AProtocolWithRequirement/aFoo()``
+- ``SampleSymbolGraphProject/A/AProtocolWithRequirement/aFoo()``

@@ -1,1 +1,376 @@
-{"metadata":{"formatVersion":{"major":0,"minor":5,"patch":3},"generator":"Swift version 5.8-dev (LLVM c44b030a65f0a4d, Swift b9afb79f50b118a)"},"module":{"name":"SampleSymbolGraphProject","platform":{"architecture":"arm64","vendor":"apple","operatingSystem":{"name":"macosx","minimumVersion":{"major":10,"minor":10,"patch":0}}}},"symbols":[{"kind":{"identifier":"swift.extension","displayName":"Extension"},"identifier":{"precise":"s:e:s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp","interfaceLanguage":"swift"},"pathComponents":["AStruct"],"names":{"title":"AStruct","navigator":[{"kind":"identifier","spelling":"AStruct"}],"subHeading":[{"kind":"keyword","spelling":"extension"},{"kind":"text","spelling":" "},{"kind":"typeIdentifier","spelling":"AStruct","preciseIdentifier":"s:1A7AStructV"}]},"swiftExtension":{"extendedModule":"A","typeKind":"struct"},"declarationFragments":[{"kind":"keyword","spelling":"extension"},{"kind":"text","spelling":" "},{"kind":"typeIdentifier","spelling":"AStruct","preciseIdentifier":"s:1A7AStructV"}],"accessLevel":"public","location":{"uri":"file:///Users/themomax/Development/github.com/themomax/SampleSymbolGraphProject/SampleSymbolGraphProject/Sources/SampleSymbolGraphProject/SampleSymbolGraphProject.swift","position":{"line":19,"character":7}}},{"kind":{"identifier":"swift.property","displayName":"Instance Property"},"identifier":{"precise":"s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp","interfaceLanguage":"swift"},"pathComponents":["AStruct","sample"],"names":{"title":"sample","subHeading":[{"kind":"keyword","spelling":"var"},{"kind":"text","spelling":" "},{"kind":"identifier","spelling":"sample"},{"kind":"text","spelling":": "},{"kind":"typeIdentifier","spelling":"String","preciseIdentifier":"s:SS"}]},"swiftExtension":{"extendedModule":"A","typeKind":"struct"},"declarationFragments":[{"kind":"keyword","spelling":"var"},{"kind":"text","spelling":" "},{"kind":"identifier","spelling":"sample"},{"kind":"text","spelling":": "},{"kind":"typeIdentifier","spelling":"String","preciseIdentifier":"s:SS"},{"kind":"text","spelling":" { "},{"kind":"keyword","spelling":"get"},{"kind":"text","spelling":" }"}],"accessLevel":"public","location":{"uri":"file:///Users/themomax/Development/github.com/themomax/SampleSymbolGraphProject/SampleSymbolGraphProject/Sources/SampleSymbolGraphProject/SampleSymbolGraphProject.swift","position":{"line":20,"character":8}}}],"relationships":[{"kind":"extensionTo","source":"s:e:s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp","target":"s:1A7AStructV","targetFallback":"A.AStruct"},{"kind":"memberOf","source":"s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp","target":"s:e:s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp","targetFallback":"A.AStruct"}]}
+{
+    "metadata": {
+        "formatVersion": {
+            "major": 0,
+            "minor": 6,
+            "patch": 0
+        },
+        "generator": "Swift version 5.8-dev (LLVM c44b030a65f0a4d, Swift fb9ecb25924353e)"
+    },
+    "module": {
+        "name": "SampleSymbolGraphProject",
+        "platform": {
+            "architecture": "arm64",
+            "vendor": "apple",
+            "operatingSystem": {
+                "name": "macosx",
+                "minimumVersion": {
+                    "major": 10,
+                    "minor": 10,
+                    "patch": 0
+                }
+            }
+        }
+    },
+    "symbols": [
+        {
+            "kind": {
+                "identifier": "swift.extension",
+                "displayName": "Extension"
+            },
+            "identifier": {
+                "precise": "s:e:s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp",
+                "interfaceLanguage": "swift"
+            },
+            "pathComponents": [
+                "AStruct"
+            ],
+            "names": {
+                "title": "AStruct",
+                "navigator": [
+                    {
+                        "kind": "identifier",
+                        "spelling": "AStruct"
+                    }
+                ],
+                "subHeading": [
+                    {
+                        "kind": "keyword",
+                        "spelling": "extension"
+                    },
+                    {
+                        "kind": "text",
+                        "spelling": " "
+                    },
+                    {
+                        "kind": "typeIdentifier",
+                        "spelling": "AStruct",
+                        "preciseIdentifier": "s:1A7AStructV"
+                    }
+                ]
+            },
+            "swiftExtension": {
+                "extendedModule": "A",
+                "typeKind": "struct"
+            },
+            "declarationFragments": [
+                {
+                    "kind": "keyword",
+                    "spelling": "extension"
+                },
+                {
+                    "kind": "text",
+                    "spelling": " "
+                },
+                {
+                    "kind": "typeIdentifier",
+                    "spelling": "AStruct",
+                    "preciseIdentifier": "s:1A7AStructV"
+                }
+            ],
+            "accessLevel": "public",
+            "location": {
+                "uri": "file:///Users/themomax/Development/github.com/themomax/SampleSymbolGraphProject/SampleSymbolGraphProject/Sources/SampleSymbolGraphProject/SampleSymbolGraphProject.swift",
+                "position": {
+                    "line": 19,
+                    "character": 7
+                }
+            }
+        },
+        {
+            "kind": {
+                "identifier": "swift.method",
+                "displayName": "Instance Method"
+            },
+            "identifier": {
+                "precise": "s:1A24AProtocolWithRequirementP24SampleSymbolGraphProjectE4aFooyyF",
+                "interfaceLanguage": "swift"
+            },
+            "pathComponents": [
+                "AProtocolWithRequirement",
+                "aFoo()"
+            ],
+            "names": {
+                "title": "aFoo()",
+                "subHeading": [
+                    {
+                        "kind": "keyword",
+                        "spelling": "func"
+                    },
+                    {
+                        "kind": "text",
+                        "spelling": " "
+                    },
+                    {
+                        "kind": "identifier",
+                        "spelling": "aFoo"
+                    },
+                    {
+                        "kind": "text",
+                        "spelling": "()"
+                    }
+                ]
+            },
+            "docComment": {
+                "uri": "file:///Users/themomax/Development/github.com/themomax/SampleSymbolGraphProject/SampleSymbolGraphProject/Sources/SampleSymbolGraphProject/SampleSymbolGraphProject.swift",
+                "module": "SampleSymbolGraphProject",
+                "lines": [
+                    {
+                        "range": {
+                            "start": {
+                                "line": 31,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 31,
+                                "character": 35
+                            }
+                        },
+                        "text": "The default implementation."
+                    }
+                ]
+            },
+            "functionSignature": {
+                "returns": [
+                    {
+                        "kind": "text",
+                        "spelling": "()"
+                    }
+                ]
+            },
+            "swiftExtension": {
+                "extendedModule": "A",
+                "typeKind": "protocol"
+            },
+            "declarationFragments": [
+                {
+                    "kind": "keyword",
+                    "spelling": "func"
+                },
+                {
+                    "kind": "text",
+                    "spelling": " "
+                },
+                {
+                    "kind": "identifier",
+                    "spelling": "aFoo"
+                },
+                {
+                    "kind": "text",
+                    "spelling": "()"
+                }
+            ],
+            "accessLevel": "public",
+            "location": {
+                "uri": "file:///Users/themomax/Development/github.com/themomax/SampleSymbolGraphProject/SampleSymbolGraphProject/Sources/SampleSymbolGraphProject/SampleSymbolGraphProject.swift",
+                "position": {
+                    "line": 32,
+                    "character": 9
+                }
+            }
+        },
+        {
+            "kind": {
+                "identifier": "swift.extension",
+                "displayName": "Extension"
+            },
+            "identifier": {
+                "precise": "s:e:s:1A24AProtocolWithRequirementP24SampleSymbolGraphProjectE4aFooyyF",
+                "interfaceLanguage": "swift"
+            },
+            "pathComponents": [
+                "AProtocolWithRequirement"
+            ],
+            "names": {
+                "title": "AProtocolWithRequirement",
+                "navigator": [
+                    {
+                        "kind": "identifier",
+                        "spelling": "AProtocolWithRequirement"
+                    }
+                ],
+                "subHeading": [
+                    {
+                        "kind": "keyword",
+                        "spelling": "extension"
+                    },
+                    {
+                        "kind": "text",
+                        "spelling": " "
+                    },
+                    {
+                        "kind": "typeIdentifier",
+                        "spelling": "AProtocolWithRequirement",
+                        "preciseIdentifier": "s:1A24AProtocolWithRequirementP"
+                    }
+                ]
+            },
+            "swiftGenerics": {
+                "constraints": [
+                    {
+                        "kind": "conformance",
+                        "lhs": "Self",
+                        "rhs": "AProtocolWithRequirement",
+                        "rhsPrecise": "s:1A24AProtocolWithRequirementP"
+                    }
+                ]
+            },
+            "swiftExtension": {
+                "extendedModule": "A",
+                "typeKind": "protocol"
+            },
+            "declarationFragments": [
+                {
+                    "kind": "keyword",
+                    "spelling": "extension"
+                },
+                {
+                    "kind": "text",
+                    "spelling": " "
+                },
+                {
+                    "kind": "typeIdentifier",
+                    "spelling": "AProtocolWithRequirement",
+                    "preciseIdentifier": "s:1A24AProtocolWithRequirementP"
+                }
+            ],
+            "accessLevel": "public",
+            "location": {
+                "uri": "file:///Users/themomax/Development/github.com/themomax/SampleSymbolGraphProject/SampleSymbolGraphProject/Sources/SampleSymbolGraphProject/SampleSymbolGraphProject.swift",
+                "position": {
+                    "line": 30,
+                    "character": 7
+                }
+            }
+        },
+        {
+            "kind": {
+                "identifier": "swift.property",
+                "displayName": "Instance Property"
+            },
+            "identifier": {
+                "precise": "s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp",
+                "interfaceLanguage": "swift"
+            },
+            "pathComponents": [
+                "AStruct",
+                "sample"
+            ],
+            "names": {
+                "title": "sample",
+                "subHeading": [
+                    {
+                        "kind": "keyword",
+                        "spelling": "var"
+                    },
+                    {
+                        "kind": "text",
+                        "spelling": " "
+                    },
+                    {
+                        "kind": "identifier",
+                        "spelling": "sample"
+                    },
+                    {
+                        "kind": "text",
+                        "spelling": ": "
+                    },
+                    {
+                        "kind": "typeIdentifier",
+                        "spelling": "String",
+                        "preciseIdentifier": "s:SS"
+                    }
+                ]
+            },
+            "swiftExtension": {
+                "extendedModule": "A",
+                "typeKind": "struct"
+            },
+            "declarationFragments": [
+                {
+                    "kind": "keyword",
+                    "spelling": "var"
+                },
+                {
+                    "kind": "text",
+                    "spelling": " "
+                },
+                {
+                    "kind": "identifier",
+                    "spelling": "sample"
+                },
+                {
+                    "kind": "text",
+                    "spelling": ": "
+                },
+                {
+                    "kind": "typeIdentifier",
+                    "spelling": "String",
+                    "preciseIdentifier": "s:SS"
+                },
+                {
+                    "kind": "text",
+                    "spelling": " { "
+                },
+                {
+                    "kind": "keyword",
+                    "spelling": "get"
+                },
+                {
+                    "kind": "text",
+                    "spelling": " }"
+                }
+            ],
+            "accessLevel": "public",
+            "location": {
+                "uri": "file:///Users/themomax/Development/github.com/themomax/SampleSymbolGraphProject/SampleSymbolGraphProject/Sources/SampleSymbolGraphProject/SampleSymbolGraphProject.swift",
+                "position": {
+                    "line": 20,
+                    "character": 8
+                }
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "kind": "memberOf",
+            "source": "s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp",
+            "target": "s:e:s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp",
+            "targetFallback": "A.AStruct"
+        },
+        {
+            "kind": "extensionTo",
+            "source": "s:e:s:1A7AStructV24SampleSymbolGraphProjectE6sampleSSvp",
+            "target": "s:1A7AStructV",
+            "targetFallback": "A.AStruct"
+        },
+        {
+            "kind": "extensionTo",
+            "source": "s:e:s:1A24AProtocolWithRequirementP24SampleSymbolGraphProjectE4aFooyyF",
+            "target": "s:1A24AProtocolWithRequirementP",
+            "targetFallback": "A.AProtocolWithRequirement"
+        },
+        {
+            "kind": "defaultImplementationOf",
+            "source": "s:1A24AProtocolWithRequirementP24SampleSymbolGraphProjectE4aFooyyF",
+            "target": "s:1A24AProtocolWithRequirementP4aFooyyF",
+            "targetFallback": "A.AProtocolWithRequirement.aFoo()"
+        },
+        {
+            "kind": "memberOf",
+            "source": "s:1A24AProtocolWithRequirementP24SampleSymbolGraphProjectE4aFooyyF",
+            "target": "s:1A24AProtocolWithRequirementP",
+            "targetFallback": "A.AProtocolWithRequirement"
+        }
+    ]
+}

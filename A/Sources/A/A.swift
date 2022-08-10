@@ -39,3 +39,7 @@ public struct AStruct5 {}
 public struct AStruct6 {}
 
 public struct AStruct7 {}
+
+public protocol AProtocolWithRequirement {
+    func aFoo()
+}
