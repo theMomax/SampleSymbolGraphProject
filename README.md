@@ -12,7 +12,7 @@ This is a sample project for demonstrating, testing, and discussing the changes 
 
 > **Note** You might need to switch out the os/arch parts for some of the paths below to match your system.
 
-Build the Swift compiler from apple/swift#59047 (latest build: [`c1fb185`](https://github.com/theMomax/swift-docc-symbolkit/commit/c1fb185b472411620cce49a82ad462f602fd52c3))
+Build the Swift compiler from apple/swift#59047 (latest build: [`fb9ecb2`](https://github.com/apple/swift/pull/59047/commits/fb9ecb25924353e26fd130d21c174713786a640e))
 
 In the [SampleSymbolGraphProject](SampleSymbolGraphProject) folder, run the following commands to generate the symbol graph files with extension block symbols.
 ```
@@ -25,7 +25,7 @@ SWIFT_EXEC=PATH/TO/YOUR/APPLE/FOLDER/build/Ninja-RelWithDebInfoAssert/swift-maco
   -Xswiftc -emit-extension-block-symbols
 ```
 
-Check out swift-docc at apple/swift-docc#335 (latest build: [`06cdfd2`](https://github.com/apple/swift-docc/pull/335/commits/06cdfd2a548d08cc3badc37fc9b4bb7213050880))
+Check out swift-docc at apple/swift-docc#335 (latest build: [`3ae5f3b`](https://github.com/apple/swift-docc/pull/335/commits/3ae5f3b0a3af8ed32d3d6c69ddf90938cb6706ce))
 
 Get the [swift-docc-render artifact](https://github.com/apple/swift-docc-render-artifact).
 
